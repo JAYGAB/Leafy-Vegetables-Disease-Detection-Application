@@ -1,4 +1,5 @@
 AgriSmart: Leafy Vegetable Disease Detection App 🌱
+
 AgriSmart is an innovative mobile application designed to detect diseases in leafy vegetables using image recognition. The app integrates cutting-edge machine learning technologies and user-friendly design to assist farmers and agricultural enthusiasts in identifying plant diseases and improving crop health.
 
 Features
@@ -8,35 +9,28 @@ Flask Backend: A Flask server is used to serve the model through REST APIs, maki
 API Connectivity: The app connects to the backend using an API key, with public access enabled through ngrok.
 Firebase Integration: Secure user authentication and real-time database management powered by Firebase.
 Modern UI: Built with Flutter, the app provides a smooth and aesthetically pleasing user experience.
+
 Tech Stack
 Frontend: Flutter (Virtual Studio Code as IDE)
 Backend: Flask, TensorFlow, Teachable Machine
 Database: Firebase
 Model Training Dataset: PlantVillage Dataset
 Deployment: ngrok for public API access
+
 How It Works
 Image Upload: Users can upload or capture an image of a leafy vegetable through the app.
 Model Prediction: The image is sent to the Flask backend, where it is processed using the trained Teachable Machine model.
 Disease Results: The app displays the disease detected along with a confidence score and potential solutions.
 User Management: Firebase handles user authentication and database functionality.
-Requirements
+
+Requirements:
 Flutter SDK
 Python (for Flask and TensorFlow)
 Virtual Studio Code
 ngrok
 Firebase configuration
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-repo-name.git  
-Navigate to the project directory:
-bash
-Copy code
-cd agriSmart  
-Set up the Flask backend and install required Python dependencies.
-Configure the Flutter frontend and Firebase integration.
-Start the ngrok server for public API access.
+
+
 Future Enhancements
 Add multilingual support.
 Improve model accuracy with additional training data.
